@@ -1,0 +1,151 @@
+body{
+    background-image: linear-gradient(rgba(255, 255, 255,0), rgba(255,255,255)), url('/src/images/background.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+}
+div h1{
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-weight: 1;
+    font-size: 2.6em;
+}
+p:hover{
+    transition: all 700ms;
+    transition-timing-function: ease-in-out;
+    transform: scale(1.1);
+}
+p a{
+    text-decoration: none;
+}
+p a:hover{
+    color:rgb(0, 0, 224);
+    cursor: pointer;
+}
+
+/*Navbar*/
+.logo{
+    width: 130px;
+    height: 50px;
+    object-fit:contain;
+    padding-left: 1.5em;
+    padding-top: 1.5em;
+    box-shadow: 0 0 0 0 white inset;
+}
+.navbar{
+    height: 100px;
+}
+nav{
+    position: absolute;
+}
+.header{
+    display: flex;
+    background-color:#75673c;
+    opacity: 87%;
+}
+.navbar ul{
+    list-style: none;
+    text-align: right;
+    margin-left: 60rem;
+    margin-top: -37px;
+}
+.navbar li{
+    display: inline-block;
+  
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+  
+  
+    padding: 20px 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
+    text-align: center;
+    transition: 1s;
+}
+.navbar a:hover{
+    background-color: rgb(125, 119, 119);
+    transition-duration: 0.5s;
+}
+
+/* Feature 1 */
+.feature1{
+    width: 700px;
+    height: 300px;
+    position: relative;
+    left: 7em;
+    top: 1em;
+}
+.im-t1{
+    width: 300px;
+    height: 300px;
+}
+
+/* Feature 2 */
+.feature2{
+    width: 700px;
+    height: 300px;
+    position: relative;
+    left: 7em;
+    top: 1em;
+}
+.im-t2{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    left: 60em;
+    top: 20em;
+}
+.feature2 .t2{
+    position: relative;
+    top: 7em;
+    left: 14em;
+}
+.feature2 .info{
+    position: relative;
+    top:17em;
+    left: 35em;
+}
+
+/* Feature 3 */
+.feature3{
+    width: 700px;
+    height: 300px;
+    position: relative;
+    left: 7em;
+    top: 1em;
+}
+.im-t3{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: 35em;
+    filter: drop-shadow(10px 5px 8px rgb(253, 232, 118));
+}
+.t3{
+    line-height: 80%;
+}
+.feature3 .t3{
+    position: relative;
+    top: 13.4em;
+}
+.feature3 .info{
+    position: relative;
+    top:27em;
+    left: 30em;
+}
+
+/* Copyright */
+hr{
+    position:relative;
+    top: 48.5em;
+    background-color: black;
+    height: 0.5px;
+}
+  
+.copyright{
+    position: absolute;
+    bottom:-70em;
+  
+}

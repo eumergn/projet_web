@@ -1,0 +1,228 @@
+/* Allover */
+body{
+  background-image: linear-gradient(rgba(255, 255, 255,0), rgba(255,255,255)), url('/src/images/background.jpg') ;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.allpage{
+  position: relative;
+  min-height: 100%;
+}
+div h1{
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  font-weight: 1;
+  font-size: 2.6em;
+}
+p:hover{
+  transition: all 700ms;
+  transition-timing-function: ease-in-out;
+  transform: scale(1.1);
+}
+p a{
+  text-decoration: none;
+}
+p a:hover{
+  color:rgb(0, 0, 224);
+  cursor: pointer;
+}
+
+/*Navbar*/
+.logo{
+  width: 130px;
+  height: 50px;
+  object-fit:contain;
+  padding-left: 1.5em;
+  padding-top: 1.5em;
+}
+.navbar{
+  height: 100px;
+}
+nav{
+  position: absolute;
+}
+.header{
+  display: flex;
+  background-color:#75673c;
+  opacity: 87%;
+}
+.navbar ul{
+  list-style: none;
+  text-align: right;
+  margin-left: 60rem;
+  margin-top: -37px;
+}
+.navbar li{
+  display: inline-block;
+
+}
+.navbar a{
+  text-decoration: none;
+  color: black;
+
+
+  padding: 20px 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
+  text-align: center;
+  transition: 1s;
+}
+.navbar a:hover{
+  background-color: rgb(125, 119, 119);
+  transition-duration: 0.5s;
+}
+/* Compteur */
+#compteur{
+  width: 4%;
+  border: 2px double;
+  background-color: lightseagreen;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold';
+  transition: font-size 0.5s;
+}
+
+/* Carousel */
+#carousel {
+  position: absolute;
+  width: 400px;
+  height: 300px;
+  overflow: hidden; 
+}
+
+.slide {
+  position: absolute;
+  width: 400px;
+  height: 300px;
+
+  margin: 0;
+  top: 10em;
+  left: 37%;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  
+}
+button{
+  position: absolute;
+  cursor: pointer;
+  opacity: 80%;
+  border-radius: 15%;
+  background-color: rgb(19, 18, 18);
+  color: white;
+
+}
+#prevBtn{
+  left: 39%;
+  top: 13em;
+}
+#nextBtn{
+  left: 58.6%;
+  top: 13em;
+}
+
+/*Title 1*/
+.title-1{
+  position: absolute;
+  top: 600px;
+  width: 90%;
+}
+.im-t{
+  position: absolute;
+  width:400px;
+  height:400px;
+  left: 100px;
+}
+.t1{
+  position: absolute;
+  left:550px;
+}
+.info{
+  background-color: hsla(30, 13%, 38%, 0.1);
+  text-shadow:local;
+  font-size:larger ;
+  left:575px;
+
+  width:40em;
+  text-overflow: ellipsis;
+}
+.title-1 p{
+  position: absolute;
+  top: 100px;
+}
+.info::first-letter{
+  text-transform: uppercase;
+  font-size: 3.5em;
+  font-weight: bold;
+  letter-spacing: 3px;
+  line-height: 1px;
+
+}
+
+/*Title 2*/
+.title-2{
+  position: absolute;
+  top: 70em;
+  width: 90%;
+}
+.title-2 p{
+  position: absolute;
+  top: 100px;
+}
+
+
+/*CONTACT*/
+.contact_all p{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  transition: none !important;
+  transform: none !important;
+  padding: 40px;
+}
+.contact_all{
+  position: absolute !important;
+  top:102em;
+  left: 2em;
+  display:flex;
+  
+}
+
+.vip-banner{
+  position: absolute;
+  left: 55em;
+  top: 2em;
+  padding: 10px;
+  border:solid 1px black;
+  border-radius: 50%;
+
+  background-color: black;
+  color: gold;
+
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  font-family: italic 'Lucida Sans', 'Lucida Sans Regular';
+  font-weight: lighter;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 2px rgb(255, 234, 117);
+}
+
+.contactvip span{
+  border: 1px solid black;
+  border-right: 50%;
+  background-color: lightsalmon;
+}
+
+/* Copyright */
+hr{
+  position:relative;
+  top: 105em;
+  background-color: black;
+  height: 0.5px;
+}
+
+.copyright{
+  position: absolute;
+  bottom:-70em;
+}

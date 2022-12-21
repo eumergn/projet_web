@@ -1,0 +1,74 @@
+body{
+    background-image: linear-gradient(rgba(255, 255, 255,0), rgba(255,255,255)), url('/src/images/background.jpg') ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+/*Navbar*/
+.logo{
+    width: 130px;
+    height: 50px;
+    object-fit:contain;
+    padding-left: 1.5em;
+    padding-top: 1.5em;
+}
+.navbar{
+    height: 100px;
+}
+nav{
+    position: absolute;
+}
+.header{
+    display: flex;
+    background-color:#75673c;
+    opacity: 87%;
+}
+.navbar ul{
+    list-style: none;
+    text-align: right;
+    margin-left: 60rem;
+    margin-top: -37px;
+}
+.navbar li{
+    display: inline-block;
+  
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+  
+  
+    padding: 20px 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
+    text-align: center;
+    transition: 1s;
+}
+.navbar a:hover{
+    background-color: rgb(125, 119, 119);
+    transition-duration: 0.5s;
+}
+.aboutnav{
+    position: relative;
+
+}
+.aboutnav a{
+    text-decoration: none;
+    font-size: larger;
+    color: black;
+}
+.aboutnav a:hover{
+    color: rgb(0, 0, 190);
+    transition: 0.5s;
+}
+hr{
+    position:relative;
+    top: 7em;
+    background-color: black;
+    height: 0.5px;
+}
+footer p{
+    position: relative;
+    top: 6em;
+}
